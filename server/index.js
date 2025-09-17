@@ -1,3 +1,6 @@
+const conexionDB = require('./src/models/base.model')
+conexionDB.verificarConexion()
+
 const express = require('express')
 const app = express()
 const port = 3000
